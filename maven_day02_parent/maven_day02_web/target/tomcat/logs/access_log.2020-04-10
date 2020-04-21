@@ -1,0 +1,2 @@
+0:0:0:0:0:0:0:1 - - [10/Apr/2020:01:35:18 +0800] "GET /maven_day02_1/items/findDetail HTTP/1.1" 404 - http-bio-8080-exec-1 0
+0:0:0:0:0:0:0:1 - - [10/Apr/2020:01:35:40 +0800] "GET /maven_day02_web/items/findDetail HTTP/1.1" 200 175 http-bio-8080-exec-7 4057

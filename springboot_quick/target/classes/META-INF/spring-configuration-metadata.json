@@ -1,0 +1,27 @@
+{
+  "hints": [],
+  "groups": [
+    {
+      "sourceType": "com.itzjx.controller.QuickController3",
+      "name": "person",
+      "type": "com.itzjx.controller.QuickController3"
+    }
+  ],
+  "properties": [
+    {
+      "sourceType": "com.itzjx.controller.QuickController3",
+      "name": "person.addr",
+      "type": "java.lang.String"
+    },
+    {
+      "sourceType": "com.itzjx.controller.QuickController3",
+      "name": "person.age",
+      "type": "java.lang.Integer"
+    },
+    {
+      "sourceType": "com.itzjx.controller.QuickController3",
+      "name": "person.name",
+      "type": "java.lang.String"
+    }
+  ]
+}

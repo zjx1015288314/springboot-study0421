@@ -1,0 +1,43 @@
+#普通数据的配置
+name: zhangsan
+
+
+
+#同时存在application.properties和application.yml同时存在时,
+#application.properties中的属性会覆盖掉application.yml中的属性
+server:
+  port: 8082
+
+#行内对象配置:把属性写在一行上,使用较少
+#person: {name: zhangsan,age: 18,addr: beijing}
+
+#配置{List,Set}数据,放置普通字符串
+city:
+  - beijing
+  - tianjin
+  - chongqin
+  - shanghai
+
+#city: [beijing,tianjin,chongqin,sahnghai]
+
+#配置{List,Set}数据,放置对象
+student:
+  - name: tom
+    age: 18
+    addr: beijing
+  - name: lucy
+    age: 17
+    addr: tianjin
+
+#student: [{name: tom,age: 18,addr: beijing},{name: lucy,age: 17,addr: tianjin}]
+
+#Map配置
+map:
+  key1: value1
+  key2: value2
+
+#对象的配置
+person:
+  name: zjx
+  addr: shanxi
+  age: 26
